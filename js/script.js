@@ -39,7 +39,7 @@ var dbUser = firebase.database().ref().child('User');
      window.location.href = "./Chatroom.html";
    });
  });
-
+ 
  //照片上傳
 
  var storageRef = firebase.storage().ref();
