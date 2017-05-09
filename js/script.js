@@ -189,7 +189,7 @@ var dbUser = firebase.database().ref().child('User');
 
 $btnProfile.click(function() {
 
-  window.location.href="./chatroom.html";
+  window.location.href="./Chatroom.html";
 });
 $btnSignOut.click(function() {
 
