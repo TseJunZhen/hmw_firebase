@@ -184,7 +184,7 @@ var dbUser = firebase.database().ref().child('User');
        photoURL: photoURL
    });
    typeName = $('#userName').val();
-   window.location.href = "./profile.html";
+   window.location.href = "./Profile.html";
  });
 
 $btnProfile.click(function() {
