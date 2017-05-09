@@ -1,0 +1,79 @@
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 533px;
+}
+
+#sign-info {
+  color: #00BCD4;
+  font-size: 120%;
+}
+#btnSignIn:hover{
+  background-color: #4CAF50; /* Green */
+border: none;
+color: black;
+width: 100px;
+height:36px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+#btnSignUp:hover{
+  background-color: lightblue; /* Green */
+border: none;
+color: black;
+width: 105px;
+height:36px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+#btnSignOut:hover{
+  background-color: gray; /* Green */
+border: none;
+color: white;
+width: 115px;
+height:36px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+#btnSignIn:active,#btnSignUp:active,#btnSignOut:active{
+  background-color: black;
+  color:white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#chat-area
+ { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+#chat-area ul
+ { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area div input
+ { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+#name-area
+  { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }
+#name-area span
+  { color: #fa9f00; }
+
+#user-pic
+{ float: left; color: white; padding-top: 27px; font-size: 14px; }
+#messageInput
+{
+margin-top: 100px;
+bottom: auto;
+  border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
+#menu_title{
+background-color: blue;
+}
