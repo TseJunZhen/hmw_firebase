@@ -36,7 +36,7 @@ var dbUser = firebase.database().ref().child('User');
    promise.then(function(e) {
      console.log("sign in suceesfully");
      $signInfo.html("sign in suceesfully");
-     window.location.href = "./chatroom.html";
+     window.location.href = "./Chatroom.html";
    });
  });
 
